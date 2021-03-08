@@ -1,0 +1,46 @@
+*  {
+  
+}
+
+li {
+  list-style: none;
+  
+}
+
+li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.bg-red {
+  background-color: #d35266;
+}
+
+.bg-black {
+  background-color: #383838;
+}
+
+.bg-black50 {
+  background-color: #888888;
+}
+
+.text-red {
+  color: #d35266;
+}
+
+.text-black {
+  color: #383838;
+}
+
+.text-black50 {
+  color: #888888;
+}
+
+.boxh-btn-place {
+  height: 40px;
+  /*width: 180px;*/
+}
+
+.search-bar {
+  max-width: 700px;
+}
