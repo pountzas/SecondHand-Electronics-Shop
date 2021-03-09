@@ -1,3 +1,7 @@
+* {
+  font-family: "gotham-bold", "gotham-light", "helvetica-light", "helvetica-medium", "helvetica-bold", helvetica, arial, sans-serif;
+}
+
 li {
   list-style: none;
   text-transform: capitalize;
@@ -44,9 +48,23 @@ li a {
 }
 
 .boxh-search-place {
-  
   align-self: center;
   padding: 0 50px;
+}
+
+/* hot deals */
+.hot-deal img {
+  max-width: 600px;
+}
+
+.card-body {
+  padding-left: 10vw;
+}
+
+@media (min-width: 1024px) {
+  .card-body {
+    padding-left: 100px;
+  }
 }
 
 /* Footer */

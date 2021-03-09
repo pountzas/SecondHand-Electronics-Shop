@@ -14,8 +14,8 @@
   </head>
 <body>
   <nav>
-    <div class="nav-container d-flex justify-content-between bg-black align-items-center">
-      <ul class="d-flex ">
+    <div class="nav-containe d-flex bg-black align-items-center">
+      <ul class="d-flex justify-content-between">
         <li class="">
           <a href="./index.html">
             <i class="fa fa-home"></i>
@@ -33,7 +33,7 @@
 
         </li>
         <li>
-          <button class="d-none d-md-block btn"></button> Login
+          <button class="d-none d-md-block btn"></button>Login
         </li>
       </ul>
       <ul class="d-flex">
@@ -55,8 +55,8 @@
   <!--search bar-->
   <section class="bg-red">
     <div class="pb-5">
-      <h1 class="text-center">Second Hand</h1>
-      <h2 class="text-center">Buy and sell pre-owned luxury items.</h2>
+      <h1 class="text-center text-white pt-3">Second Hand</h1>
+      <h2 class="text-center text-white fs-4">Buy and sell pre-owned luxury items.</h2>
     </div>
     <div class="container-md d-flex flex-column flex-md-row py-4 justify-content-center">
       <form class="" action="./search.html" method="GET"></form>
@@ -75,21 +75,22 @@
   <!--Hot Deals Slider-->
   <section class="container">
     <h3 class="text-black50 lh-lg pb-1">Hot Deals</h3>
-    <div class="">
-      <button></button>
-      <div class="hot-deal container-lg">
-        <img src="" alt="product-photo">
-        <ul>
-          <li><a href="#">product name</a></li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia amet expedita in quae laudantium dicta suscipit iure, magni ass</li>
-          <li>saler</li>
-          <li>Location</li>
-          <li>price button</li>
+    <div class="d-flex justify-content-center pb-3">
+      <button class="btn"><i class="fas fa-chevron-circle-left fs-2"></i></button>
+      <div class="hot-deal card">
+        <img class="card-img-top" src="./images/dumy photo.jpg" alt="product-photo">
+        <ul class="card-body">
+          <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 128GB 5G Smartphone Pacific Blue</a></li>
+          <li>used item, minor scratces</li>
+          <li>saler: <strong>John Doo</strong></li>
+          <li>Location: <strong>Germany</strong></li>
+          <li class="btn bg-red text-white px-3"><i class="fas fa-shopping-cart pe-1"></i>400€</li>
         </ul>
       </div>
+      <button class="btn"><i class="fas fa-chevron-circle-right fs-2"></i></button>
     </div>
     
-    <button></button>
+    
   </section>
 
   <!--all categories-->
