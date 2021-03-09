@@ -47,6 +47,10 @@ li a {
   height: 40px;
 }
 
+.search-logo {
+  max-width: 750px;
+}
+
 .boxh-search-place {
   align-self: center;
   padding: 0 50px;
