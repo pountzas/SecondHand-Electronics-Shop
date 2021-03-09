@@ -9,7 +9,8 @@ li {
 
 li a {
   text-decoration: none;
-  color: #888888
+  color: #888888;
+  line-height: 1.8;
 }
 
 .bg-red {
@@ -44,7 +45,7 @@ li a {
   height: 40px;
   /*width: 180px;*/
 }
-/*
-.search-bar {
-  max-width: 7000px;
-}*/
+
+.footer-col4 {
+  margin-top: 30px;
+}
