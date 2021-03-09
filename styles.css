@@ -97,9 +97,7 @@ li a {
   }
 
   .all-deal img {
-    
     padding-left: 1vw;
-    
   }
 }
 
@@ -114,7 +112,7 @@ li a {
   width: 80px;
   margin-top: 5px;
   padding: 4px;
-  padding-left: 14px;
+  
 }
 
 .footer-col4 {
@@ -123,4 +121,8 @@ li a {
 
 .footer-social {
   max-width: 200px;
+}
+
+.company-line {
+  font-size: smaller;
 }
