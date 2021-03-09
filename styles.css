@@ -57,13 +57,55 @@ li a {
   max-width: 600px;
 }
 
-.card-body {
+.card-body-hot {
   padding-left: 10vw;
 }
 
 @media (min-width: 1024px) {
-  .card-body {
+  .card-body-hot {
     padding-left: 100px;
+  }
+}
+
+/* all categories */
+.all-cat {
+  padding: 30px 0;
+  max-width: 1440px;
+}
+
+.all-deal img {
+  max-width: 400px;
+}
+
+.card-body-all {
+  padding-left: 6vw;
+  padding-right: 6vw;
+  font-size: small;
+  color: #888888;
+  line-height: 1.2;
+}
+
+.card-body-all a {
+  font-size: medium;
+  line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+  .card-body-all {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .all-deal img {
+    
+    padding-left: 1vw;
+    
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-body-all {
+    
   }
 }
 
