@@ -51,6 +51,11 @@ li a {
   width: 40px;
 }
 
+footer li,
+footer a {
+  font-size: 18px;
+}
+
 /* search bar */
 .boxh-btn-place {
   height: 40px;
@@ -119,11 +124,6 @@ li a {
 }
 
 /* Footer */
-footer li,
-footer a {
-  font-size: 18px;
-}
-
 .list-box-item {
   width: 80px;
   margin-top: 5px;
