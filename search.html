@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
+      crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="./styles.css">
+    <title>Second Hand</title>
+  </head>
+<body>
+  <nav>
+    <div class="nav-container d-flex bg-black justify-content-between">
+      <ul class="d-flex ps-0 pt-2 align-items-center">
+        <li class="pe-1">
+          <a class="ps-2" href="./index.html">
+            <img class="nav-logo" src="./images/Daco_2258192.png" alt="Second Hand logo">
+          </a>
+        </li>
+        <li class="pe-2">
+          <a class="fs-4" href="./index.html">
+            <i class="fa fa-home fs-2"></i>
+            Home
+          </a>
+        </li>
+        <li class="pe-2">
+          <a class="fs-4" href="./index.html">
+            <i class="fas fa-th-list fs-2"></i>
+            Favorite
+          </a>
+        </li>
+        <li class="pe-2">
+          <button class="d-none d-sm-block btn text-black bg-red" type="button">Post An Ad</button>
+
+        </li>
+        <li class="pe-2">
+          <button class="d-none d-md-block btn text-black bg-red" type="button">Login</button>
+        </li>
+      </ul>
+
+      <ul class="d-flex align-items-center">
+        <li>
+          <a href="#">
+            <i class="fas fa-envelope fs-2 pe-3 pt-1 pb-0"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img class="nav-img-user rounded-circle pe-2" src="./images/1517522080883.jpg" alt="User">
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!--search bar-->
+  <section class="bg-red">
+    <div class="pb-2 d-flex flex-column">
+      <img class="d-none search-logo img-fluid container" src="./images/Daco_2258192.png" alt="">
+      <h2 class="pt-5 text-center text-white fs-4">Buy and sell pre-owned luxury items.</h2>
+    </div>
+    <div class="container-md d-flex flex-column flex-md-row py-4 justify-content-center">
+      <form class="" action="./search.html" method="GET"></form>
+      <select class="boxh-btn-place ps-1 text-black50" name="category" id="category">
+        <option value="categories">All categories</option>
+        <option value="Vehicles">Vehicles</option>
+        <option value="Smart-phones">Smart-phones</option>
+        <option value="Laptops">Laptops</option>
+      </select>
+      <input class="boxh-btn-place ps-1" type="text" placeholder="What are you searching?">
+      <input class="boxh-btn-place ps-1 mb-3 mb-md-0" type="text" placeholder="Country">
+      <button class="boxh-btn-place boxh-search-place rounded mb-3 bg-black text-black50" type="submit">Search</button>
+    </div>
+  </section>
+
+  
+  <!--Footer-->
+  <footer class="container pt-4">
+    <div class="row md-column gx-1 justify-content-center">
+      <div class="col-10 col-md-4">
+        <div>
+          <img class="nav-logo" src="./images/Daco_2258192.png" alt="company-logo">
+          <p class="company-line fs-5">Lorem, ipsum dolor sit amet . Voluptatibus cumque distinctio ad perspiciatis aliquam debitis quaerat impedit maiores aspernatur ratione, rem saepe amet! Impedit, maxime recusandae. Iusto assumenda eius eligendi?</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center justify-content-md-start col-5 col-md-6">
+        <div class=" mr-3">
+          <h4 class="text-red">Categories</h4>
+          <ul class="p-0 m-0 border-top border-2 border-danger">
+            <li><a href="#">Vechiles</a></li>
+            <li><a href="#">smart-Phones</a></li>
+            <li><a href="#">laptops</a></li>
+            <li><a href="#">Clothing</a></li>
+            <li><a href="#">real estate</a></li>
+          </ul>
+        </div>
+      
+        <div class="ps-3">
+          <div>
+            <h4 class="text-red">Navigation</h4>
+            <ul class="p-0 m-0 border-top border-2 border-danger">
+              <li><a href="#">home</a></li>
+              <li><a href="#">sign in</a></li>
+              <li><a href="#">sign up</a></li>
+              <li><a href="#">Terms & conditions</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">help</a></li>
+            </ul>
+          </div>
+        </div> 
+      </div> 
+      <div class="col-12 col-md-2 footer-col4">
+        <div class="d-flex justify-content-center ">
+          <ul class="p-0 m-0 text-red">
+            <li class="container pe-2 pt-2 pb-2 border-0">language</li>
+            <li class="container pe-2 pt-2 pb-2 border-0">location</li>
+            <li class="container pe-2 pt-2 border-0">currency</li>
+          </ul>
+          <ul class="p-0">
+            <li class="border list-box-item">english</li>
+            <li class="border list-box-item">greece</li>
+            <li class="border list-box-item">euro €</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-md-row align-items-center justify-content-md-between">
+        <div class="footer-end  d-md-flex pt-2">
+          <p class="fs-5 m-0">This site is made by</p>
+          <a class="text-decoration-none fw-bold ps-1 pt-1" href="https://github.com/pountzas">Pountzas Nikos</a>
+        </div>
+        <div class="">
+          <ul class="footer-social d-flex h4 p-0 m-0">
+            <li><a class="m-1" href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a class="m-1" href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a class="m-1" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="m-1" href="#"><i class="fab fa-google"></i></a></li>
+            <li><a class="m-1" href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/382832813c.js" crossorigin="anonymous"></script>
+</body>
+</html>
