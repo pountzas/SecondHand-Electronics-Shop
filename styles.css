@@ -136,3 +136,8 @@ li a {
 .company-line {
   font-size: smaller;
 }
+
+footer li,
+footer a {
+  font-size: 18px;
+}
