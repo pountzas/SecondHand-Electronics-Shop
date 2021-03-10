@@ -9,7 +9,7 @@ li {
 
 li a {
   text-decoration: none;
-  color: #888888;
+  color: #888;
   line-height: 1.8;
   text-transform: capitalize;
 }
@@ -23,7 +23,7 @@ li a {
 }
 
 .bg-black50 {
-  background-color: #888888;
+  background-color: #888;
 }
 
 .bg-black20 {
@@ -39,7 +39,7 @@ li a {
 }
 
 .text-black50 {
-  color: #888888;
+  color: #888;
 }
 
 /* nav-bar */
@@ -98,7 +98,7 @@ li a {
   padding-left: 6vw;
   padding-right: 6vw;
   font-size: small;
-  color: #888888;
+  color: #888;
   line-height: 1.2;
 }
 
@@ -118,18 +118,11 @@ li a {
   }
 }
 
-@media (min-width: 1024px) {
-  .card-body-all {
-    
-  }
-}
-
 /* Footer */
 .list-box-item {
   width: 80px;
   margin-top: 5px;
   padding: 4px;
-  
 }
 
 .footer-col4 {
