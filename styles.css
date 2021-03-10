@@ -79,6 +79,10 @@ footer a {
   padding-left: 10vw;
 }
 
+.hot-deal-btn {
+  width: 200px;
+}
+
 @media (min-width: 1024px) {
   .card-body-hot {
     padding-left: 100px;
