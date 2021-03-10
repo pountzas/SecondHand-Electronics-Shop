@@ -1,9 +1,9 @@
-## Project 3 Microverse TO BE CORRECTED
+## HTML/CSS Capstone electronics store TO BE CORRECTED
 
 # Clone of Newsweek website using Bootstrap
 > This is a clone of the Newsweek archived by Webarchive. In this project we used bootstrap, flex, and fontawesome.
 
-![newsweek-screenshot](./newsweek-screenshot.png)
+![newsweek-screenshot](./newsweek-screenshot.pn)
 
 ## Built With
 
@@ -12,11 +12,10 @@
 - Bootstrap
 - Fontawesome
 - Windows
-- Linux
 
 ## Live Demo
 
-[Live Demo Link](https://pountzas.github.io/Project-3-using-Bootstrap/)
+[Live Demo Link](https://pountzas.github.io/Project-4-HTML-CSS-Electronics-Shop-/)
 
 To get a local copy up and running follow these simple example steps.
 
