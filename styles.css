@@ -119,6 +119,11 @@ li a {
 }
 
 /* Footer */
+footer li,
+footer a {
+  font-size: 18px;
+}
+
 .list-box-item {
   width: 80px;
   margin-top: 5px;
@@ -135,9 +140,4 @@ li a {
 
 .company-line {
   font-size: smaller;
-}
-
-footer li,
-footer a {
-  font-size: 18px;
 }
