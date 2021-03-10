@@ -42,6 +42,15 @@ li a {
   color: #888888;
 }
 
+/* nav-bar */
+.nav-logo {
+  max-height: 40px;
+}
+
+.nav-img-user {
+  width: 40px;
+}
+
 /* search bar */
 .boxh-btn-place {
   height: 40px;
