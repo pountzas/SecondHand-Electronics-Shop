@@ -1,9 +1,10 @@
-## Project 3 Microverse TO BE CORRECTED
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Clone of Newsweek website using Bootstrap
-> This is a clone of the Newsweek archived by Webarchive. In this project we used bootstrap, flex, and fontawesome.
+# Second Hand
+>Second hand is the Capstone Project assigned to me by Microverse for the 4th week of the HTML & CSS3 Module.
+>
 
-![newsweek-screenshot](./newsweek-screenshot.png)
+![img](./second-hand.png)
 
 ## Built With
 
@@ -12,11 +13,11 @@
 - Bootstrap
 - Fontawesome
 - Windows
-- Linux
+
 
 ## Live Demo
 
-[Live Demo Link](https://pountzas.github.io/Project-3-using-Bootstrap/)
+[Live Demo Link](https://pountzas.github.io/Project-4-HTML-CSS-Electronics-Shop-/)
 
 To get a local copy up and running follow these simple example steps.
 
@@ -25,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 - open your Terminal, go to the desired folder and write the following commands
 
 - git init
-- git clone https://github.com/pountzas/Project-2-Building-with-Responsive-Design.git review
+- git clone 
 
 👤 **Nikos Pountzas**
 
@@ -37,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/pountzas/Project-3-using-Bootstrap/issues).
+Feel free to check the [issues page](https://pountzas.github.io/Project-4-HTML-CSS-Electronics-Shop-/issues).
 
 ## Show your support
 
