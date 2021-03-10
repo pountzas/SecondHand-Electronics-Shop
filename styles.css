@@ -87,6 +87,21 @@ section h4 {
   color: #383838;
 }
 
+/* search results */
+.all-result {
+  max-width: 1240px;
+}
+
+.all-result img {
+  max-width: 400px;
+}
+
+@media (min-width: 768px) {
+  .all-result img {
+    max-width: 180px;
+  }
+}
+
 /* hot deals */
 .hot-deal img {
   max-width: 600px;
@@ -160,5 +175,5 @@ section h4 {
 }
 
 .company-line {
-  font-size: smaller;
+  font-size: 5px;
 }
