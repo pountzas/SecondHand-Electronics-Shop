@@ -1,9 +1,9 @@
 ## HTML/CSS Capstone electronics store TO BE CORRECTED
 
 # Clone of Newsweek website using Bootstrap
-> This is a clone of the Newsweek archived by Webarchive. In this project we used bootstrap, flex, and fontawesome.
+> This is an electronics store. In this project i used bootstrap, flex, and fontawesome.
 
-![newsweek-screenshot](./newsweek-screenshot.pn)
+![e-store screenshot](./newsweek-screenshot.pn)
 
 ## Built With
 
@@ -24,7 +24,7 @@ To get a local copy up and running follow these simple example steps.
 - open your Terminal, go to the desired folder and write the following commands
 
 - git init
-- git clone https://github.com/pountzas/Project-2-Building-with-Responsive-Design.git review
+- git clone https://github.com/pountzas/Project-4-HTML-CSS-Electronics-Shop-.git
 
 👤 **Nikos Pountzas**
 
