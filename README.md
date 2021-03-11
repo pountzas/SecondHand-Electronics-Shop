@@ -10,10 +10,10 @@
 
 - Html
 - CSS
-- Bootstrap
+- Bootstrap 5
 - Fontawesome
 - Windows
-
+- Photo-shop
 
 ## Live Demo
 
