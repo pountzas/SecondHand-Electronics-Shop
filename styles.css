@@ -113,6 +113,15 @@ section h4 {
   max-width: 400px;
 }
 
+.forms {
+  width: 250px;
+}
+
+.forms h2 {
+  font-size: 18px;
+  padding-top: 15px;
+}
+
 @media (min-width: 768px) {
   .all-result img {
     max-width: 180px;
