@@ -19,14 +19,22 @@
 
 [Live Demo Link](https://pountzas.github.io/Project-4-HTML-CSS-Electronics-Shop-/)
 
-To get a local copy up and running follow these simple example steps.
+## Getting Started
+
+Be sure to have a Github account and that this account is connected locally on your PC
+
 
 ### Setup
 
-- open your Terminal, go to the desired folder and write the following commands
+Create a new folder/directory for the project
 
-- git init
-- git clone 
+
+### Install
+
+- open your terminal on your OS
+- go to the desired folder/directory that you want to have the project in
+- git clone https://github.com/pountzas/Project-4-HTML-CSS-Electronics-Shop-.git
+
 
 👤 **Nikos Pountzas**
 
