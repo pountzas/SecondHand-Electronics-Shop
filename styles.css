@@ -59,6 +59,8 @@ footer a {
 .nav-env,
 .h2-nav {
   display: none;
+  font-size: 18px;
+  padding-top: 5px;
 }
 
 @media (min-width: 381px) {
