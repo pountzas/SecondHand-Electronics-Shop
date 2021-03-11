@@ -203,5 +203,6 @@ section h3 {
 }
 
 .company-line {
-  font-size: 5px;
+  font-size: 15px;
+  text-align: start;
 }
