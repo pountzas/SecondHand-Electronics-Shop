@@ -189,6 +189,7 @@ section h3 {
 
 /* Footer */
 .list-box-item {
+  font-size: 14px;
   width: 80px;
   margin-top: 5px;
   padding: 4px;
@@ -205,4 +206,14 @@ section h3 {
 .company-line {
   font-size: 15px;
   text-align: start;
+}
+
+.foot-list-item,
+.foot-as {
+  font-size: 14px;
+  line-height: 0.8;
+}
+
+.foot-list-item {
+  margin-top: 8px;
 }
