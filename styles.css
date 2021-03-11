@@ -111,7 +111,7 @@ section h3 {
   max-width: 1240px;
 }
 
-.all-result img {
+.card-img-top {
   max-width: 400px;
 }
 
@@ -124,9 +124,24 @@ section h3 {
   padding-top: 15px;
 }
 
+.cart-price-btn {
+  width: 100px;
+}
+
+@media (min-width: 500px) {
+  .card-img-top {
+    
+  }
+}
+
 @media (min-width: 768px) {
-  .all-result img {
+  .card-img-top {
     max-width: 180px;
+    margin-left: 0;
+  }
+
+  .plus-button {
+    margin-left: 65px;
   }
 }
 
@@ -164,11 +179,13 @@ section h3 {
 }
 
 .card-body-all {
+  align-items: center ;
+  max-width: 350px;
   padding-left: 6vw;
   padding-right: 6vw;
-  font-size: small;
+  font-size: 14px;
   color: #888;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 .card-body-all a {
