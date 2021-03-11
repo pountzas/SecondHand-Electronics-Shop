@@ -208,6 +208,10 @@ section h3 {
   text-align: start;
 }
 
+.foot-nav {
+  padding-left: 50px;
+}
+
 .foot-list-item,
 .foot-as {
   font-size: 14px;
@@ -216,4 +220,24 @@ section h3 {
 
 .foot-list-item {
   margin-top: 8px;
+}
+
+@media (min-width: 768px) {
+  .foot-cat {
+    padding-left: 4vw;
+  }
+  
+  .foot-nav {
+    padding-left: 4vw;
+  }
+}
+
+@media (min-width: 992px) {
+  .foot-cat {
+    padding-left: 8vw;
+  }
+  
+  .foot-nav {
+    padding-left: 8vw;
+  }
 }
