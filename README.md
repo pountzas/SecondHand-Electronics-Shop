@@ -1,9 +1,10 @@
-## HTML/CSS Capstone electronics store TO BE CORRECTED
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Clone of Newsweek website using Bootstrap
-> This is an electronics store. In this project i used bootstrap, flex, and fontawesome.
+# Second Hand
+>Second hand is the Capstone Project assigned to me by Microverse for the 4th week of the HTML & CSS3 Module.
+>
 
-![e-store screenshot](./newsweek-screenshot.pn)
+![img](./second-hand.png)
 
 ## Built With
 
@@ -12,6 +13,7 @@
 - Bootstrap
 - Fontawesome
 - Windows
+
 
 ## Live Demo
 
@@ -24,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 - open your Terminal, go to the desired folder and write the following commands
 
 - git init
-- git clone https://github.com/pountzas/Project-4-HTML-CSS-Electronics-Shop-.git
+- git clone 
 
 👤 **Nikos Pountzas**
 
@@ -36,7 +38,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/pountzas/Project-3-using-Bootstrap/issues).
+Feel free to check the [issues page](https://pountzas.github.io/Project-4-HTML-CSS-Electronics-Shop-/issues).
 
 ## Show your support
 
