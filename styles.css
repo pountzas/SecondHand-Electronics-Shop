@@ -56,6 +56,23 @@ footer a {
   font-size: 18px;
 }
 
+.nav-env,
+.h2-nav {
+  display: none;
+}
+
+@media (min-width: 381px) {
+  .nav-env {
+    display: block;
+  }
+}
+
+@media (min-width: 434px) {
+  .h2-nav {
+    display: block;
+  }
+}
+
 /* search bar */
 .boxh-btn-place {
   height: 40px;
