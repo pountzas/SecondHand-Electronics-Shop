@@ -60,4 +60,4 @@ https://www.vhv.rs/userpic/4409/
 
 ## 📝 License
 
-MIT
+This project is [MIT](MIT.md) licensed.
