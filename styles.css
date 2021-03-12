@@ -129,10 +129,6 @@ section h3 {
   padding-top: 15px;
 }
 
-.btn-group-search {
-  
-}
-
 .cart-price-btn {
   width: 100px;
   margin-left: 28vw;
@@ -192,6 +188,12 @@ section h3 {
 }
 
 /* all categories */
+.h2-main,
+.view-all {
+  font-size: 18px;
+  
+}
+
 .dropdown-toggle::after {
   content: none;
 }
