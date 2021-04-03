@@ -191,7 +191,6 @@ section h3 {
 .h2-main,
 .view-all {
   font-size: 18px;
-  
 }
 
 .dropdown-toggle::after {
@@ -208,7 +207,7 @@ section h3 {
 }
 
 .card-body-all {
-  align-items: center ;
+  align-items: center;
   max-width: 350px;
   padding-left: 6vw;
   padding-right: 6vw;
