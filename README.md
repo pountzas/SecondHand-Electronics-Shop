@@ -4,7 +4,7 @@
 > Second hand is the Capstone Project assigned to me by Microverse for the 4th week of the HTML & CSS3 Module.
 > Original Design (Zattix) by: <a href="https://www.behance.net/gallery/24796463/ZATTIX" target="_blank">Mohammed Awad</a>
 
-![img](./second-hand.png)
+![img](./project.png)
 
 ## Built With
 
