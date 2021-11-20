@@ -40,7 +40,7 @@ Create a new folder/directory for the project
 
 - GitHub: [@pountzas](https://github.com/pountzas)
 - Twitter: [@pountzas20](https://twitter.com/pountzas20)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nikos-pountzas-173ba4a8/)
+- LinkedIn: [Nikos Pountzas](https://www.linkedin.com/in/nikos-pountzas/)
 
 ## 🤝 Contributing
 
