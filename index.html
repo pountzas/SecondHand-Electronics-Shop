@@ -13,7 +13,523 @@
     <title>Second Hand</title>
   </head>
 <body>
+  <nav>
+    <div class="nav-container d-flex bg-black justify-content-between">
+      <ul class="d-flex ps-0 pt-2 align-items-center">
+        <li class="pe-1">
+          <a class="ps-2" href="./index.html">
+            <img class="nav-logo" src="./images/Daco_2258192.png" alt="Second Hand logo">
+          </a>
+        </li>
+        <li class="pe-2">
+          <a class="d-flex fs-4" href="./index.html">
+            <i class="fa fa-home fs-2 pe-1"></i>
+            <h2 class="h2-nav">Home</h2>
+          </a>
+        </li>
+        <li class="pe-2">
+          <a class="d-flex fs-4" href="./index.html">
+            <i class="fas fa-th-list fs-2 pe-1"></i>
+            <h2 class="h2-nav">Favorite</h2>
+          </a>
+        </li>
+        <li class="pe-2">
+          <button class="d-none d-sm-block btn text-white bg-red" type="button">Post An Ad</button>
+
+        </li>
+        <li class="pe-2">
+          <button class="d-none d-md-block btn text-white bg-red" type="button">Login</button>
+        </li>
+      </ul>
+
+      <ul class="d-flex align-items-center pt-1">
+        <li class="nav-env">
+          <a href="#">
+            <i class="fas fa-envelope fs-2 pe-3 pt-1 pb-0"></i>
+          </a>
+        </li>
+        <li class="user-icon">
+          <a href="#">
+            <img class="nav-img-user rounded-circle pe-2" src="./images/1517522080883.jpg" alt="User">
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!--search bar-->
+    <section class="bg-red">
+      <div class="pb-2 d-flex flex-column">
+        <img class="d-none d-md-block search-logo img-fluid container" src="./images/Daco_2258192.png" alt="">
+        <h1 class="pt-5 pt-md-0 text-center text-white fs-4">Buy and sell pre-owned luxury items.</h1>
+      </div>
+      <div class="container-md d-flex flex-column flex-md-row py-4 justify-content-center">
+        <form class="" action="./search.html" method="GET"></form>
+        <select class="boxh-btn-place ps-1 text-black50" name="category" id="category">
+          <option value="categories">All categories</option>
+          <option value="Vehicles">Vehicles</option>
+          <option value="Smart-phones">Smart-phones</option>
+          <option value="Laptops">Laptops</option>
+        </select>
+        <input class="boxh-btn-place ps-1" type="text" placeholder="What are you searching?">
+        <input class="boxh-btn-place ps-1 mb-3 mb-md-0" type="text" placeholder="Country">
+        <div class="boxh-btn-place boxh-search-place rounded mb-3 pt-2 bg-black"><a class="text-black50 text-decoration-none" href="./search.html">Search</a></div>
+      </div>
+    </section>
+
+    <!--Hot Deals Slider-->
+    <section class="container">
+      <div class="d-flex pt-5 pb-2">
+        <i class="fab fa-hotjar text-black50 pe-2 fs-4"></i>
+        <h2 class="h2-main text-black50 pb-">Hot Deals</h2>
+      </div>
+      <div class="d-flex justify-content-center pb-3">
+        <button class="btn" type="button"><i class="fas fa-chevron-circle-left fs-2"></i></button>
+        <div class="hot-deal card">
+          <img class="card-img-top" src="./images/dumy_photo.jpg" alt="product-photo">
+          <ul class="card-body card-body-hot">
+            <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 128GB 5G Smartphone Pacific Blue</a></li>
+            <li>used item, broken screen</li>
+            <li>saler: <strong>John Doo</strong></li>
+            <li>Location: <strong>Germany</strong></li>
+          </ul>
+          <button class="hot-deal-btn align-self-center btn bg-red text-white mb-2 px-3" type="button"><i class="fas fa-shopping-cart pe-1"></i>400€</button>
+
+        </div>
+        <button class="btn" type="button"><i class="fas fa-chevron-circle-right fs-2"></i></button>
+      </div>
+      
+      
+    </section>
+
+    <!--all categories-->
+    <main class="bg-black20 text-black50 fs-3 border-top border-bottom">
+      <section class="all-cat vehicles container">
+        <div class="vehicles-title d-flex justify-content-between">
+          <div class="d-flex">
+            <i class="fas fa-car pt-1 pe-2"></i>
+            <h2 class="h2-main pt-1">Vehicles</h2>
+          </div>
+          <a class="view-all text-black50 fs-5 text-decoration-none" href="#">View-all</a>
+        </div>
+        
+        <div class="d-md-flex">
+          
+          <div class="d-flex justify-content-center "> 
+
+            <div class="all-deal card me-1 mb-1">
+              <img class="card-img-top text-center" src="./images/dumy_photo.jpg" alt="product-photo">
+              <ul class="card-body card-body-all pb-0">
+                <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 256GB 5G Smartphone Pacific Blue</a></li>
+                <li>used item, minor scratces</li>
+                <li>saler: <strong>John Doo</strong></li>
+                <li>Location: <strong>Germany</strong></li>
+              </ul>
+              <div class="pt-2 card-body card-body-all article-button-container d-flex justify-content-between">
+                <div class="btn-group">
+                  <button type="button" class="btn bg-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fas fa-plus text-white"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add to favorite</a></li>
+                    <li><a class="dropdown-item" href="#">buy now</a></li>
+                    <li><a class="dropdown-item" href="#">more details</a></li>
+                  </ul>
+                </div>
+                <button class="btn bg-red text-white px-3" type="button"><i class="fas fa-shopping-cart"></i>800€</button>
+              </div>
+            </div>
+
+            <div class="all-deal card me-1 mb-1">
+              <img class="card-img-top text-center" src="./images/dumy_photo.jpg" alt="product-photo">
+              <ul class="card-body card-body-all pb-0">
+                <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 256GB 5G Smartphone Pacific Blue</a></li>
+                <li>used item, minor scratces</li>
+                <li>saler: <strong>John Doo</strong></li>
+                <li>Location: <strong>Germany</strong></li>
+              </ul>
+              <div class="pt-2 card-body card-body-all article-button-container d-flex justify-content-between">
+                <div class="btn-group">
+                  <button type="button" class="btn bg-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fas fa-plus text-white"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add to favorite</a></li>
+                    <li><a class="dropdown-item" href="#">buy now</a></li>
+                    <li><a class="dropdown-item" href="#">more details</a></li>
+                  </ul>
+                </div>
+                <button class="btn bg-red text-white px-3" type="button"><i class="fas fa-shopping-cart"></i>800€</button>
+              </div>
+            </div>
+
+          </div>
+        
+          <div class="d-flex justify-content-center "> 
+            
+            <div class="all-deal card me-1 mb-1">
+              <img class="card-img-top text-center" src="./images/dumy_photo.jpg" alt="product-photo">
+              <ul class="card-body card-body-all pb-0">
+                <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 256GB 5G Smartphone Pacific Blue</a></li>
+                <li>used item, minor scratces</li>
+                <li>saler: <strong>John Doo</strong></li>
+                <li>Location: <strong>Germany</strong></li>
+              </ul>
+              <div class="pt-2 card-body card-body-all article-button-container d-flex justify-content-between">
+                <div class="btn-group">
+                  <button type="button" class="btn bg-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fas fa-plus text-white"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add to favorite</a></li>
+                    <li><a class="dropdown-item" href="#">buy now</a></li>
+                    <li><a class="dropdown-item" href="#">more details</a></li>
+                  </ul>
+                </div>
+                <button class="btn bg-red text-white px-3" type="button"><i class="fas fa-shopping-cart"></i>800€</button>
+              </div>
+            </div>
+
+            <div class="all-deal card me-1 mb-1">
+              <img class="card-img-top text-center" src="./images/dumy_photo.jpg" alt="product-photo">
+              <ul class="card-body card-body-all pb-0">
+                <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 256GB 5G Smartphone Pacific Blue</a></li>
+                <li>used item, minor scratces</li>
+                <li>saler: <strong>John Doo</strong></li>
+                <li>Location: <strong>Germany</strong></li>
+              </ul>
+              <div class="pt-2 card-body card-body-all article-button-container d-flex justify-content-between">
+                <div class="btn-group">
+                  <button type="button" class="btn bg-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fas fa-plus text-white"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add to favorite</a></li>
+                    <li><a class="dropdown-item" href="#">buy now</a></li>
+                    <li><a class="dropdown-item" href="#">more details</a></li>
+                  </ul>
+                </div>
+                <button class="btn bg-red text-white px-3" type="button"><i class="fas fa-shopping-cart"></i>800€</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      
+      </section>
+
+      <section class="all-cat smart-phones container">
+        <div class="smart-phones-title d-flex justify-content-between">
+          <div class="d-flex">
+            <i class="fas fa-mobile pt-1 ps-1 pe-2"></i>
+            <h2 class="h2-main pt-1">Smart-phones</h2>
+          </div>
+          <a class="view-all text-black50 fs-5 text-decoration-none" href="#">View-all</a>
+        </div>
+        <div class="d-md-flex">
+          <div class="d-flex justify-content-center ">
+            
+            <div class="all-deal card me-1 mb-1">
+              <img class="card-img-top text-center" src="./images/dumy_photo.jpg" alt="product-photo">
+              <ul class="card-body card-body-all pb-0">
+                <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 256GB 5G Smartphone Pacific Blue</a></li>
+                <li>used item, minor scratces</li>
+                <li>saler: <strong>John Doo</strong></li>
+                <li>Location: <strong>Germany</strong></li>
+              </ul>
+              <div class="pt-2 card-body card-body-all article-button-container d-flex justify-content-between">
+                <div class="btn-group">
+                  <button type="button" class="btn bg-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fas fa-plus text-white"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add to favorite</a></li>
+                    <li><a class="dropdown-item" href="#">buy now</a></li>
+                    <li><a class="dropdown-item" href="#">more details</a></li>
+                  </ul>
+                </div>
+                <button class="btn bg-red text-white px-3" type="button"><i class="fas fa-shopping-cart"></i>800€</button>
+              </div>
+            </div>
+
+            <div class="all-deal card me-1 mb-1">
+              <img class="card-img-top text-center" src="./images/dumy_photo.jpg" alt="product-photo">
+              <ul class="card-body card-body-all pb-0">
+                <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 256GB 5G Smartphone Pacific Blue</a></li>
+                <li>used item, minor scratces</li>
+                <li>saler: <strong>John Doo</strong></li>
+                <li>Location: <strong>Germany</strong></li>
+              </ul>
+              <div class="pt-2 card-body card-body-all article-button-container d-flex justify-content-between">
+                <div class="btn-group">
+                  <button type="button" class="btn bg-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fas fa-plus text-white"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add to favorite</a></li>
+                    <li><a class="dropdown-item" href="#">buy now</a></li>
+                    <li><a class="dropdown-item" href="#">more details</a></li>
+                  </ul>
+                </div>
+                <button class="btn bg-red text-white px-3" type="button"><i class="fas fa-shopping-cart"></i>800€</button>
+              </div>
+            </div>
+
+          </div>
+        
+          <div class="d-flex justify-content-center "> 
+            
+            <div class="all-deal card me-1 mb-1">
+              <img class="card-img-top text-center" src="./images/dumy_photo.jpg" alt="product-photo">
+              <ul class="card-body card-body-all pb-0">
+                <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 256GB 5G Smartphone Pacific Blue</a></li>
+                <li>used item, minor scratces</li>
+                <li>saler: <strong>John Doo</strong></li>
+                <li>Location: <strong>Germany</strong></li>
+              </ul>
+              <div class="pt-2 card-body card-body-all article-button-container d-flex justify-content-between">
+                <div class="btn-group">
+                  <button type="button" class="btn bg-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fas fa-plus text-white"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add to favorite</a></li>
+                    <li><a class="dropdown-item" href="#">buy now</a></li>
+                    <li><a class="dropdown-item" href="#">more details</a></li>
+                  </ul>
+                </div>
+                <button class="btn bg-red text-white px-3" type="button"><i class="fas fa-shopping-cart"></i>800€</button>
+              </div>
+            </div>
+
+            <div class="all-deal card me-1 mb-1">
+              <img class="card-img-top text-center" src="./images/dumy_photo.jpg" alt="product-photo">
+              <ul class="card-body card-body-all pb-0">
+                <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 256GB 5G Smartphone Pacific Blue</a></li>
+                <li>used item, minor scratces</li>
+                <li>saler: <strong>John Doo</strong></li>
+                <li>Location: <strong>Germany</strong></li>
+              </ul>
+              <div class="pt-2 card-body card-body-all article-button-container d-flex justify-content-between">
+                <div class="btn-group">
+                  <button type="button" class="btn bg-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fas fa-plus text-white"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add to favorite</a></li>
+                    <li><a class="dropdown-item" href="#">buy now</a></li>
+                    <li><a class="dropdown-item" href="#">more details</a></li>
+                  </ul>
+                </div>
+                <button class="btn bg-red text-white px-3" type="button"><i class="fas fa-shopping-cart"></i>800€</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="all-cat laptops container">
+        <div class="laptops-title d-flex justify-content-between">
+          <div class="d-flex">
+            <i class="fas fa-laptop pe-1"></i>
+            <h2 class="h2-main">Laptops</h2>
+          </div>
+          <a class="view-all text-black50 fs-5 text-decoration-none" href="#">View-all</a>
+        </div>
+        
+        <div class="d-md-flex">
+          <div class="d-flex justify-content-center "> 
+            
+            <div class="all-deal card me-1 mb-1">
+              <img class="card-img-top text-center" src="./images/dumy_photo.jpg" alt="product-photo">
+              <ul class="card-body card-body-all pb-0">
+                <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 256GB 5G Smartphone Pacific Blue</a></li>
+                <li>used item, minor scratces</li>
+                <li>saler: <strong>John Doo</strong></li>
+                <li>Location: <strong>Germany</strong></li>
+              </ul>
+              <div class="pt-2 card-body card-body-all article-button-container d-flex justify-content-between">
+                <div class="btn-group">
+                  <button type="button" class="btn bg-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fas fa-plus text-white"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add to favorite</a></li>
+                    <li><a class="dropdown-item" href="#">buy now</a></li>
+                    <li><a class="dropdown-item" href="#">more details</a></li>
+                  </ul>
+                </div>
+                <button class="btn bg-red text-white px-3" type="button"><i class="fas fa-shopping-cart"></i>800€</button>
+              </div>
+            </div>
+
+            <div class="all-deal card me-1 mb-1">
+              <img class="card-img-top text-center" src="./images/dumy_photo.jpg" alt="product-photo">
+              <ul class="card-body card-body-all pb-0">
+                <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 256GB 5G Smartphone Pacific Blue</a></li>
+                <li>used item, minor scratces</li>
+                <li>saler: <strong>John Doo</strong></li>
+                <li>Location: <strong>Germany</strong></li>
+              </ul>
+              <div class="pt-2 card-body card-body-all article-button-container d-flex justify-content-between">
+                <div class="btn-group">
+                  <button type="button" class="btn bg-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fas fa-plus text-white"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add to favorite</a></li>
+                    <li><a class="dropdown-item" href="#">buy now</a></li>
+                    <li><a class="dropdown-item" href="#">more details</a></li>
+                  </ul>
+                </div>
+                <button class="btn bg-red text-white px-3" type="button"><i class="fas fa-shopping-cart"></i>800€</button>
+              </div>
+            </div>
+
+          </div>
+        
+          <div class="d-flex justify-content-center "> 
+            
+            <div class="all-deal card me-1 mb-1">
+              <img class="card-img-top text-center" src="./images/dumy_photo.jpg" alt="product-photo">
+              <ul class="card-body card-body-all pb-0">
+                <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 256GB 5G Smartphone Pacific Blue</a></li>
+                <li>used item, minor scratces</li>
+                <li>saler: <strong>John Doo</strong></li>
+                <li>Location: <strong>Germany</strong></li>
+              </ul>
+              <div class="pt-2 card-body card-body-all article-button-container d-flex justify-content-between">
+                <div class="btn-group">
+                  <button type="button" class="btn bg-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fas fa-plus text-white"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add to favorite</a></li>
+                    <li><a class="dropdown-item" href="#">buy now</a></li>
+                    <li><a class="dropdown-item" href="#">more details</a></li>
+                  </ul>
+                </div>
+                <button class="btn bg-red text-white px-3" type="button"><i class="fas fa-shopping-cart"></i>800€</button>
+              </div>
+            </div>
+
+            <div class="all-deal card me-1 mb-1">
+              <img class="card-img-top text-center" src="./images/dumy_photo.jpg" alt="product-photo">
+              <ul class="card-body card-body-all pb-0">
+                <li><a class="fw-bold text-red" href="#">Apple iPhone 12 Pro 256GB 5G Smartphone Pacific Blue</a></li>
+                <li>used item, minor scratces</li>
+                <li>saler: <strong>John Doo</strong></li>
+                <li>Location: <strong>Germany</strong></li>
+              </ul>
+              <div class="pt-2 card-body card-body-all article-button-container d-flex justify-content-between">
+                <div class="btn-group">
+                  <button type="button" class="btn bg-red dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                    <i class="fas fa-plus text-white"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Add to favorite</a></li>
+                    <li><a class="dropdown-item" href="#">buy now</a></li>
+                    <li><a class="dropdown-item" href="#">more details</a></li>
+                  </ul>
+                </div>
+                <button class="btn bg-red text-white px-3" type="button"><i class="fas fa-shopping-cart"></i>800€</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      
+      </section>
+    </main>
   
+  <!--Footer-->
+  <footer class="container pt-4">
+    <div class="row md-column gx-1 justify-content-center">
+      <div class="col-10 col-md-4">
+        <div class="text-center">
+          <img class="nav-logo" src="./images/Daco_2258192.png" alt="company-logo">
+          <p class="company-line">Lorem, ipsum dolor sit amet . Voluptatibus cumque distinctio ad perspiciatis aliquam debitis quaerat impedit maiores aspernatur ratione, rem saepe amet! Impedit, maxime recusandae. Iusto assumenda eius eligendi?</p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center justify-content-md-start col-5 col-md-6">
+        <div class="foot-cat mr-3">
+          <h3 class="text-red fs-5">Categories</h3>
+          <ul class="p-0 m-0 border-top border-2 border-danger">
+            <li><a class="foot-as" href="#">Vechiles</a></li>
+            <li><a class="foot-as" href="#">smart-Phones</a></li>
+            <li><a class="foot-as" href="#">laptops</a></li>
+            <li><a class="foot-as" href="#">Clothing</a></li>
+            <li><a class="foot-as" href="#">real estate</a></li>
+          </ul>
+        </div>
+      
+        <div class="foot-nav">
+          <div>
+            <h3 class="text-red fs-5">Navigation</h3>
+            <ul class="p-0 m-0 border-top border-2 border-danger">
+              <li><a class="foot-as" href="#">home</a></li>
+              <li><a class="foot-as" href="#">sign in</a></li>
+              <li><a class="foot-as" href="#">sign up</a></li>
+              <li><a class="foot-as" href="#">Terms & conditions</a></li>
+              <li><a class="foot-as" href="#">FAQ</a></li>
+              <li><a class="foot-as" href="#">help</a></li>
+            </ul>
+          </div>
+        </div> 
+      </div> 
+      <div class="col-12 col-md-2 footer-col4">
+        <div class="d-flex justify-content-center ">
+          <ul class="p-0 m-0 text-red">
+            <li class="container pe-2 foot-list-item pt-2 pb-2 border-0">language</li>
+            <li class="container pe-2 foot-list-item pt-2 pb-2 border-0">location</li>
+            <li class="container pe-2 foot-list-item pt-2 border-0">currency</li>
+          </ul>
+          <ul class="p-0">
+            <li class="border list-box-item">english</li>
+            <li class="border list-box-item">greece</li>
+            <li class="border list-box-item">euro €</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-md-row align-items-center justify-content-md-between">
+        <div class="footer-end  d-md-flex pt-2">
+          <p class="fs-6 m-0">This site is made by</p>
+          <a class="text-decoration-none fw-bold ps-1 fs-6" href="https://github.com/pountzas">Pountzas Nikos</a>
+        </div>
+        <div class="">
+          <ul class="footer-social d-flex h4 p-0 m-0">
+            <li><a class="m-1" href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a class="m-1" href="#"><i class="fab fa-linkedin"></i></a></li>
+            <li><a class="m-1" href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a class="m-1" href="#"><i class="fab fa-google"></i></a></li>
+            <li><a class="m-1" href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      
+    </div>
+    
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/382832813c.js" crossorigin="anonymous"></script>
 </body>

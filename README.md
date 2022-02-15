@@ -4,7 +4,7 @@
 > Second hand is the Capstone Project assigned to me by Microverse for the 4th week of the HTML & CSS3 Module.
 > Original Design (Zattix) by: <a href="https://www.behance.net/gallery/24796463/ZATTIX" target="_blank">Mohammed Awad</a>
 
-![img](./second-hand.png)
+![img](./project.png)
 
 ## Built With
 
@@ -40,7 +40,7 @@ Create a new folder/directory for the project
 
 - GitHub: [@pountzas](https://github.com/pountzas)
 - Twitter: [@pountzas20](https://twitter.com/pountzas20)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nikos-pountzas-173ba4a8/)
+- LinkedIn: [Nikos Pountzas](https://www.linkedin.com/in/nikos-pountzas/)
 
 ## 🤝 Contributing
 
@@ -60,4 +60,5 @@ https://www.vhv.rs/userpic/4409/
 
 ## 📝 License
 
-MIT
+ Developing
+This project is [MIT](MIT.md) licensed.
